@@ -1,0 +1,23 @@
+{
+  "name": "fonts-inliner",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "ky": "^0.28.5",
+    "vue": "^3.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.4.0",
+    "@vue/compiler-sfc": "^3.2.4",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5",
+    "vite": "^2.5.0",
+    "vite-plugin-windicss": "^1.2.7",
+    "vue-tsc": "^0.3.0",
+    "windicss": "^3.1.7"
+  }
+}
