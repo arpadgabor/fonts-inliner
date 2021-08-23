@@ -7,5 +7,10 @@ export default defineConfig({
       center: true,
       padding: '1rem',
     },
+    extend: {
+      fontFamily: {
+        sans: `'Urbanist', sans-serif`,
+      },
+    },
   },
 })
